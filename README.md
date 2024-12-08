@@ -1,7 +1,7 @@
 # Airbnb Price Prediction
 This project is part of Data Science Bootcamp at [Rakamin](https://www.rakamin.com/) 
 
-![Airbnb](./images/logo.jpg)  
+![Airbnb](logo.jpg)  
 *Image Source: [logodix.com](https://logodix.com)*
 
 ## Table of Contents
