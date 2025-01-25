@@ -102,30 +102,13 @@ Setting the right price for an Airbnb listing is crucial for maximizing revenue 
 3. **Model Selection:**  
    - Trained multiple models, including: Linear Regression, Ridge, Lasso, Random Forest, Gradient Boosting with default parameters. The results are as follow:
 
-      📊 LinearRegression
-
-         🟢 Train - MAE: 101.5335, R2: 0.2220
-         🔵 Test  - MAE: 102.4646, R2: 0.2241
-
-      📊 Ridge
-
-         🟢 Train - MAE: 101.9560, R2: 0.2201
-         🔵 Test  - MAE: 102.6475, R2: 0.2230
-
-      📊 Lasso
-         
-         🟢 Train - MAE: 102.1718, R2: 0.2104
-         🔵 Test  - MAE: 103.0278, R2: 0.2118
-
-      📊 RandomForest
-
-         🟢 Train - MAE: 21.7303, R2: 0.9263
-         🔵 Test  - MAE: 56.4752, R2: 0.6656
-
-      📊 GradientBoosting
-         
-         🟢 Train - MAE: 79.4672, R2: 0.4532
-         🔵 Test  - MAE: 81.7521, R2: 0.3022
+      | Model               | Train MAE   | Train R2  | Test MAE   | Test R2   |
+      |---------------------|-------------|-----------|------------|-----------|
+      | **Linear Regression** | 101.5335    | 0.2220    | 102.4646   | 0.2241    |
+      | **Ridge**             | 101.9560    | 0.2201    | 102.6475   | 0.2230    |
+      | **Lasso**             | 102.1718    | 0.2104    | 103.0278   | 0.2118    |
+      | **Random Forest**     | 21.7303     | 0.9263    | 56.4752    | 0.6656    |
+      | **Gradient Boosting** | 79.4672     | 0.4532    | 81.7521    | 0.3022    |
 
    - Fine-tuned hyperparameters of Random Forest using grid search, with following hyperparameters:
    ```
